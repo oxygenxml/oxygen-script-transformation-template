@@ -1,0 +1,367 @@
+{
+  "books": {
+    "book": [
+      {
+        "anchor": "XML_Hacks",
+        "technology": "XML",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596007116/oxygenxmledit-20",
+        "title": "XML Hacks 100 Industrial-Strength Tips & Tools",
+        "author": "Michael Fitzgerald",
+        "image": {
+          "description": "XML Hacks 100 Industrial-Strength Tips & Tools",
+          "src": "img/XML_Hacks.jpg"
+        },
+        "paperback": "478 pages",
+        "publisher": "O'Reilly; 1 edition (July 27, 2004)",
+        "isbn": "0596007116",
+        "description": "Developers and system administrators alike are uncovering the true power of XML, the Extensible Markup Language that enables data to be sent over the Internet from one computer platform to another or one application to another and retain its original format. Flexible enough to be customized for applications as diverse as web sites, electronic data interchange, voice mail systems, wireless devices, web services, and more, XML is quickly becoming ubiquitous. XML Hacks is a roll-up-your-sleeves guide that distills years of ingenious XML hacking into a complete set of practical tips, tricks, and tools for web developers, system administrators, and programmers who want to go far beyond basic tutorials to leverage the untapped power of XML. With plenty of useful real-world projects that illustrate how to define, read, create, and manipulate XML documents, XML Hacks shows readers how to put XML's power to work on the Internet and within productivity applications. Each Hack in this book can be read easily in a few minutes, saving programmers and administrators countless hours of searching for the right answer. And this is an O'Reilly Hacks book, so it's not just practical, imminently useful, and time-saving. It's also fun. From Anatomy of an XML Document to Exploring SOAP Messages XML Hacks shows you how to save time and accomplish more with fewer resources. If you want much more than the average XML user (to explore and experiment, do things you didn't know you could do with XML, discover clever shortcuts, and show off just a little) this invaluable book is a must-have."
+      },
+      {
+        "anchor": "Effective_XML",
+        "technology": "XML",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0321150406/oxygenxmledit-20",
+        "title": "Effective XML: 50 Specific Ways to Improve Your XML",
+        "author": "Elliotte Rusty Harold",
+        "image": {
+          "description": "Effective XML: 50 Specific Ways to Improve Your XML",
+          "src": "img/Effective_XML.jpg"
+        },
+        "paperback": "336 pages",
+        "publisher": "Addison-Wesley Professional; 1st edition (September 12, 2003)",
+        "isbn": "0321150406",
+        "description": "Elliotte Rusty Harold provides you with 50 practical rules of thumb based on real-world examples and best practices. His engaging writing style is easy to understand and illustrates how you can save development time while improving your XML code. Learn to write XML that is easy to edit, simple to process, and is fully interoperable with other applications and code. Understand how to design and document XML vocabularies so they are both descriptive and extensible. After reading this book, you'll be ready to choose the best tools and APIs for both large-scale and small-scale processing jobs. Elliotte provides you with essential information on building services such as verification, compression, authentication, caching, and content management."
+      },
+      {
+        "anchor": "XML_in_Nutshell",
+        "technology": "XML",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596007647/oxygenxmledit-20",
+        "title": "XML in a Nutshell, 3rd edition",
+        "author": "Elliotte Rusty Harold, W. Scott Means",
+        "image": {
+          "description": "XML in a Nutshell, 3rd edition",
+          "src": "img/XML_in_Nutshell.jpg"
+        },
+        "paperback": "600 pages",
+        "publisher": "O'Reilly; 3 edition (September, 2004)",
+        "isbn": "0596007647",
+        "description": {
+          "content": [
+            "If you're a developer working with XML, you know there's a lot to know about XML, and the XML space is evolving almost moment by moment. But you don't need to commit every XML syntax, API, or XSLT transformation to memory; you only need to know where to find it. And if it's a detail that has to do with XML or its companion standards, you'll find it (clear, concise, useful, and well-organized) in the updated third edition of XML in a Nutshell. With XML in a Nutshell beside your keyboard, you'll be able to:",
+            "This powerful new edition is the comprehensive XML reference. Serious users of XML will find coverage on just about everything they need, from fundamental syntax rules, to details of DTD and XML Schema creation, to XSLT transformations, to APIs used for processing XML documents. XML in a Nutshell also covers XML 1.1, as well as updates to SAX2 and DOM Level 3 coverage. If you need explanation of how a technology works, or just need to quickly find the precise syntax for a particular piece, XML in a Nutshell puts the information at your fingertips. Simply put, XML in a Nutshell is the critical, must-have reference for any XML developer."
+          ],
+          "list": {
+            "element": [
+              "Quick-reference syntax rules and usage examples for the core XML technologies, including XML, DTDs, XPath, XSLT, SAX, and DOM",
+              "Develop an understanding of well-formed XML, DTDs, namespaces, Unicode, and W3C XML Schema",
+              "Gain a working knowledge of key technologies used for narrative XML documents such as web pages, books, and articles technologies like XSLT, XPath, XLink, XPointer, CSS, and XSL-FO",
+              "Build data-intensive XML applications",
+              "Understand the tools and APIs necessary to build data-intensive XML applications and process XML documents, including the event-based Simple API for XML (SAX2) and the tree-oriented Document Object Model (DOM)"
+            ]
+          }
+        }
+      },
+      {
+        "anchor": "XSLT",
+        "technology": "XSL",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0764543814/oxygenxmledit-20",
+        "title": "XSLT : Programmer's Reference (Programmer to Programmer)",
+        "author": "Michael Kay",
+        "image": {
+          "description": "XSLT : Programmer's Reference (Programmer to Programmer)",
+          "src": "img/XSLT.jpg"
+        },
+        "paperback": "992 pages",
+        "publisher": "Wrox; 2 edition (May 3, 2001)",
+        "isbn": "0764543814",
+        "description": "This compact, relevant, updated version reflects recent changes in the XSLT specification and developments in XSLT parsers. The material on tools and implementations has been revised; so too have all the examples. It also includes a new chapter on writing extension functions. XML has firmly established itself as the universal standard for managing data for the web and is now being implemented on a wide scale. XSL (eXtensible Stylesheet Language), a vital companion to XML, is used for two main purposes: to format or style XML data so that it can be displayed in a browser and to transform XML data (XSLT). When you transform an XML document, you manipulate the data into a new structure, for example, re-ordering the data. This enables the same data store to be used in an unlimited number of ways. XSLT is a flexible, customizable, and cross-platform language. XSLT is a notoriously difficult language to understand, but this book, while being a complete reference to the recommendation, will also give code examples showing how it all ties together and can be effectively employed in a real-world development scenario."
+      },
+      {
+        "anchor": "Learning_XSLT",
+        "technology": "XSL",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596003277/oxygenxmledit-20",
+        "title": "Learning XSLT",
+        "author": "Michael Fitzgerald",
+        "image": {
+          "description": "Learning XSLT",
+          "src": "img/Learning_XSLT.jpg"
+        },
+        "paperback": "368 pages",
+        "publisher": "O'Reilly; 1 edition (November 18, 2003)",
+        "isbn": "0596003277",
+        "description": "Learning XSLT moves smoothly from the simple to complex, illustrating all aspects of XSLT 1.0 through step-by-step examples that you'll practice as you work through the book. Thorough in its coverage of the language, the book makes few assumptions about what you may already know. You'll learn about XSLT's template-based syntax, how XSLT templates work with each other, and gain an understanding of XSLT variables. Learning XSLT also explains how the XML Path Language (XPath) is used by XSLT and provides a glimpse of what the future holds for XSLT 2.0 and XPath 2.0. The ability to transform one XML vocabulary to another is fundamental to exploiting the power of XML. Learning XSLT is a carefully paced, example-rich introduction to XSLT that will have you understanding and using XSLT on your own in no time."
+      },
+      {
+        "anchor": "XSL_FO",
+        "technology": "XSL, FO",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596003552/oxygenxmledit-20",
+        "title": "XSL FO",
+        "author": "Dave Pawson",
+        "image": {
+          "description": "XSL FO",
+          "src": "img/XSL_FO.jpg"
+        },
+        "paperback": "264 pages",
+        "publisher": "O'Reilly; 1 edition (August 15, 2002)",
+        "isbn": "0596003552",
+        "description": "No matter how flexible and convenient digital information has become, we haven't done away with the need to see information in print. Extensible Style Language-Formatting Objects, or XSL-FO, is a set of tools developers and web designers use to describe page printouts of their XML (including XHTML) documents. XSL-FO is one of the few books to go beyond a basic introduction to the technology. While many books touch on XSL-FO in their treatment of XSLT, this book offers in-depth coverage of XSL-FO's features and strengths. Author Dave Pawson is well known in the XSLT and XSL-FO communities, and maintains the XSLT FAQ. XSL-FO is more than just a guide to the technology; the book teaches you how to think about the formatting of your documents and guides you through the questions you'll need to ask to ensure that your printed documents meet the same high standards as your computer-generated content. Written for experienced XML developers and web designers, no other book contains as much useful information on this practical technology."
+      },
+      {
+        "anchor": "XSLT_XPATH",
+        "technology": "XSL, XPath",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0764547763/oxygenxmledit-20",
+        "title": "XSLT and XPath On The Edge, Unlimited Edition",
+        "author": "Jeni Tennison",
+        "image": {
+          "description": "XSLT and XPath On The Edge, Unlimited Edition",
+          "src": "img/XSLT_XPATH.jpg"
+        },
+        "paperback": "648 pages",
+        "publisher": "Wiley; Unlimited edition (October 1, 2001)",
+        "isbn": "0764547763",
+        "description": {
+          "content": [
+            "Extensible Stylesheet Language Transformations, along with the XML Path Language, give you the power to transform XML documents into HTML documents, or to other XML documents that you can use in Web-based applications. But how do you implement XSLT in the real world? This book provides the answers. Covering everything from reformatting numbers to creating dynamic XSLT applications, XSLT expert Jeni Tennison delivers a wealth of ready-to-use utility templates and practical XSLT solutions -- everything you need to jump-start XSLT development. With XSLT and XPath on the Edge, Unlimited Edition, you'll:",
+            "With this Unlimited Edition, owners of the book can download all-new content from the Web and access a searchable version of the book online."
+          ],
+          "element": [
+            "Take advantage of utility templates for searching and replacing strings, calculating minimums, and more",
+            "Build your own recursive templates or use simple XPath-s",
+            "Discover ready-made solutions for filtering, numbering, grouping, and other transformations",
+            "Understand the building blocks of XSLT applications",
+            "Separate style from format and break up your stylesheet into functional modules that are easier to maintain and reuse",
+            "Build dynamic applications that use client-side processing with MSXML or server-side processing with Cocoon",
+            "Fine-tune stylesheets to work more efficiently and deliver exactly the output you're looking for",
+            "Harness the power of the XSLT extensions available with MSXML, Saxon, and Xalan"
+          ]
+        }
+      },
+      {
+        "anchor": "XSLT_2_0",
+        "technology": "XSL",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0764569090/oxygenxmledit-20",
+        "title": "XSLT 2.0 Programmer's Reference (Programmer to Programmer)",
+        "author": "Michael Kay",
+        "image": {
+          "description": "XSLT 2.0 Programmer's Reference, 3rd Edition",
+          "src": "img/XSLT_2_0.jpg"
+        },
+        "paperback": "955 pages",
+        "publisher": "Wrox; 3 edition (August 9, 2004)",
+        "isbn": "0764569090",
+        "description": "XSLT 2.0 Programmer's Reference, 3rd Edition, is the authoritative reference guide to the language. Without using the formal and inaccessible language of the W3C specifications, it tells you exactly what every construct in the language does, and how it is intended to be used. This book is a reference rather than a tutorial; it is designed for the professional programmer who is using the language every day. It is the book that people quote when they claim that a particular product is giving the wrong answer, and the book that implementers of the language turn to when they want clarification of the specifications. At the same time, the book is readable. Reviews of the previous editions of the XSLT Programmer's Reference, which this book grew from, show that readers appreciate the background material on the design thinking behind the language, the essay on functional programming, the occasional dry wit, the gentle criticism of the language specification when appropriate, and the fact that the examples stray into a diverse range of interesting application areas."
+      },
+      {
+        "anchor": "Professional_XSL",
+        "technology": "XSL",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/1861003579/oxygenxmledit-20",
+        "title": "Professional XSL",
+        "author": "Kurt Cagle, Jeni Tennison, Jirka Jirat etc.",
+        "image": {
+          "description": "Professional XSL",
+          "src": "img/Professional_XSL.jpg"
+        },
+        "paperback": "800 pages",
+        "publisher": "Wrox Press; 1st edition (June 1, 2001)",
+        "isbn": "1861003579",
+        "description": "Professional XSL takes an applied, tutorial-style approach to teaching the core fundamentals of the XSLT, XPath and XSL-FO specifications. You'll learn how to create well structured and modularized stylesheets to generate your required output, how to change, filter, and sort data, and how to incorporate other content for presentation purposes. XML is now the established standard for platform-neutral data storage and exchange, separating content from presentation. Its popularity is due to the flexibility of the language and the ability to reuse the data in a variety of ways. XSL is a key technology for working with XML, and is comprised of two parts: XSLT is the official language for transforming XML from one format to another, whether for restructuring/selectively processing the data or presenting the data for display; XSL-FO is a proposed vocabulary for incorporating information concerning how the document should be arranged for presentation. A related standard, XPath, is the language for addressing specific parts of an XML document."
+      },
+      {
+        "anchor": "Beginning_XSLT",
+        "technology": "XSL",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/1861005946/oxygenxmledit-20",
+        "title": "Beginning XSLT",
+        "author": "Jeni Tennison",
+        "image": {
+          "description": "Beginning XSLT",
+          "src": "img/Beginning_XSLT.jpg"
+        },
+        "paperback": "700 pages",
+        "publisher": "Wrox Press Inc; 1st edition (May 1, 2002)",
+        "isbn": "1861005946",
+        "description": "XML is established as the universal standard for delivering documents and data on the Web. The next step is to process that data and the XSL Transformation language, XSLT, has been developed as the primary means for such processing. XSLT can be used to convert XML data for presentational purposes as well as to modify data structure."
+      },
+      {
+        "anchor": "RelaxNG",
+        "technology": "RelaxNG",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596004214/oxygenxmledit-20",
+        "title": "RELAX NG",
+        "author": "Eric van der Vlist",
+        "image": {
+          "description": "RELAX NG",
+          "src": "img/Relax_NG.jpg"
+        },
+        "paperback": "304 pages",
+        "publisher": "O'Reilly; 1 edition (July, 2003)",
+        "isbn": "0596004214",
+        "description": {
+          "content": [
+            "As developers know, the beauty of XML is that it is extensible, even to the point that you can invent new elements and attributes as you write XML documents. Then, however, you need to define your changes so that applications will be able to make sense of them and this is where XML schema languages come into play. RELAX NG (pronounced relaxing), the Regular Language Description for XML Core-New Generation is quickly gaining momentum as an alternative to other schema languages. Designed to solve a variety of common problems raised in the creation and sharing of XML vocabularies, RELAX NG is less complex than The W3C's XML Schema Recommendation and much more powerful and flexible than DTDs. RELAX NG is a grammar-based schema language that's both easy to learn for schema creators and easy to implement for software developers In RELAX NG, developers are introduced to this unique language and will learn a no-nonsense method for creating XML schemas. This book offers a clear-cut explanation of RELAX NG that enables intermediate and advanced XML developers to focus on XML document structures and content rather than battle the intricacies of yet another convoluted standard. RELAX NG covers the following topics in depth:",
+            "and much more. If you're looking for a schema language that's easy to use and won't leave you in a labyrinth of obscure limitations, RELAX NG is the language you should be using. And only O'Reilly's RELAX NG gives you the straightforward information and everything else you'll need to take advantage of this powerful and intelligible language."
+          ],
+          "list": {
+            "element": [
+              "Introduction to RELAX NG",
+              "Building RELAX NG schemas using XML syntax",
+              "Building RELAX NG schemas using compact syntax, an alternative non-XML syntax",
+              "Flattening schemas to limit depth and provide reusability",
+              "Using external datatype libraries with RELAX NG",
+              "W3C XML Schema regular expressions",
+              "Writing extensible schemas",
+              "Annotating schemas",
+              "Generating schemas form different sources",
+              "Determinism and datatype assignment"
+            ]
+          }
+        }
+      },
+      {
+        "anchor": "DefinitiveXMLSchema",
+        "technology": "XML Schema",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0130655678/oxygenxmledit-20",
+        "title": "Definitive XML Schema",
+        "author": "Priscilla Walmsley",
+        "image": {
+          "description": "Definitive XML Schema",
+          "src": "img/XML_Schema.jpg"
+        },
+        "paperback": "560 pages",
+        "publisher": "Prentice Hall PTR; 1st edition (December 7, 2001)",
+        "isbn": "0130655678",
+        "description": {
+          "content": [
+            "The authoritative XML Schema reference and tutorial.",
+            "To leverage the full power of XML, companies need shared vocabularies to base their documents and scripts upon. XML Schema makes it possible to create those shared vocabularies-and Definitive XML Schema is the authoritative guide to the standard! Written by Priscilla Walmsley, a member of the W3C working group that created XML Schema, this book explains the W3C Recommendation with unprecedented insight and clarity\u2014and introduces practical techniques for writing schemas to support any B2B, Web service, or content processing application. Coverage includes:",
+            "Definitive XML Schema brings together expert guidance for schema design, superior approaches to schema development, and the most systematic XML Schema reference on the market. Whether you're a developer, architect, or content specialist, it's the only XML Schema resource you need!"
+          ],
+          "list":{
+              "element": [
+                "How XML Schema provides a rigorous, complete standard for modeling XML document structure, content, and datatypes",
+                "Working with schemas: Schema composition, instance validation, documentation, namespaces, and more",
+                "XML Schema building blocks: elements, attributes, and types",
+                "Advanced techniques: type derivation, model groups, substitution groups, identity constraints, redefinition, and much more",
+                "An in-depth primer on effective schema design, including naming, document structure, and extensibility considerations",
+                "Transition guidance for experienced DTD developers"
+                ]
+            }
+        }
+      },
+      {
+        "anchor": "XMLSchema",
+        "technology": "XML Schema",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596002521/oxygenxmledit-20",
+        "title": "XML Schema",
+        "author": "Eric van der Vlist",
+        "image": {
+          "description": "XML Schema",
+          "src": "img/XML_Schema2.jpg"
+        },
+        "paperback": "400 pages",
+        "publisher": "O'Reilly; 1 edition (June 15, 2002)",
+        "isbn": "0596002521",
+        "description": "If you need to create or use formal descriptions of XML vocabularies, the W3C's XML Schema offers a powerful set of tools for defining acceptable document structures and content. An alternative to DTDs as the way to describe and validate data in an XML environment, XML Schema enables developers to create precise descriptions with a richer set of datatypes that are essential for today's applications. While schemas are powerful, that power comes with substantial complexity. This concise book explains XML Schema foundations, a variety of different styles for writing schemas, simple and complex types, datatypes and facets, keys, extensibility, documentation, design choices, best practices, and limitations, with examples throughout. In addition, XML Schema provides a complete reference to all parts of both the XML Schema Structures and XML Schema Datatypes specifications, as well as a glossary. Appendices explore the relationships between XML Schema and other tools for describing document structures as well as work in progress at the W3C to more tightly integrate XML Schema with existing specifications."
+      },
+      {
+        "anchor": "XPATH",
+        "technology": "XPath",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0764569104/oxygenxmledit-20",
+        "title": "XPath 2.0 Programmer's Reference",
+        "author": "Michael Kay",
+        "image": {
+          "description": "XPath 2.0 Programmer's Reference",
+          "src": "img/XPath_2_0.jpg"
+        },
+        "paperback": "552 pages",
+        "publisher": "Wrox (August 16, 2004)",
+        "isbn": "0596002521",
+        "description": "XPath 2.0 Programmer's Reference is the only authoritative reference on XPath, a sub-language within XSLT that determines which part of an XML document the XSLT transforms. Written for professional programmers who use XML every day but find the W3C XPath specifications tough to slog through, this book explains in everyday language what every construct in the language does and how to use it. It also offers background material on the design thinking behind the language, gentle criticism of the language specification when appropriate, and a diverse range of interesting examples in various application areas."
+      },
+      {
+        "anchor": "DocBook",
+        "technology": "XSL, DocBook",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/1565925807/oxygenxmledit-20",
+        "title": "DocBook: The Definitive Guide",
+        "author": "Norman Walsh, Leonard Muellner",
+        "image": {
+          "description": "DocBook: The Definitive Guide",
+          "src": "img/Docbook.jpg"
+        },
+        "paperback": "652 pages",
+        "publisher": "O'Reilly & Associates; 1 edition (October 1, 1999)",
+        "isbn": "1565925807",
+        "description": "DocBook is a Document Type Definition (DTD) for use with XML (the Extensible Markup Language) and SGML (the Standard Generalized Markup Language). DocBook lets authors in technical groups exchange and reuse technical information. The emerging generation of Web browsers will be able to read and search XML documents; therefore authors will be able to create DocBook documents that function both as professionally produced hard-copy books and as online documents available over the World Wide Web. This book contains an introduction to SGML, XML, and the DocBook DTD, plus the complete reference information for DocBook."
+      },
+      {
+        "anchor": "DocBook_XSL",
+        "technology": "XSL, DocBook",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0974152110/oxygenxmledit-20",
+        "title": "DocBook XSL: The Complete Guide",
+        "author": "Bob Stayton",
+        "image": {
+          "description": "DocBook: The Definitive Guide",
+          "src": "img/Docbook_XSL.jpg"
+        },
+        "paperback": "412 pages",
+        "publisher": "Sagehill Enterprises (August 1, 2003)",
+        "isbn": "0974152110",
+        "description": {
+          "content": [
+            "DocBook XSL: The Complete Guide (Second Edition) is the definitive guide to using the DocBook XSL stylesheets. It provides the missing documentation to realize the full potential of DocBook publishing. It covers all aspects of DocBook publishing tools, including installing, using, and customizing the stylesheets and processing tools.. With this book, you can:",
+            "The book is suitable for new users just getting started, as well as more advanced users needing a complete reference. It is thoroughly indexed and cross referenced so you can quickly find what you need."
+          ],
+          "list": {
+            "element": [
+              "Select the DocBook components that are appropriate for your needs and budget.",
+              "Set up and configure the tools for efficient processing of your documents.",
+              "Generate HTML and print output from the same DocBook files.",
+              "Customize your HTML and print output.",
+              "Discover and use advanced features of the DocBook stylesheets."
+            ]
+          }
+        }
+      },
+      {
+        "anchor": "SVG",
+        "technology": "SVG",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/1590590198/oxygenxmledit-20",
+        "title": "SVG Programming: The Graphical Web",
+        "author": "Kurt Cagle",
+        "image": {
+          "description": "SVG Programming: The Graphical Web",
+          "src": "img/SVG_Programming.jpg"
+        },
+        "paperback": "586 pages",
+        "publisher": "Apress; 1 edition (July 8, 2002)",
+        "isbn": "1590590198",
+        "description": "SVG Programming: The Graphical Web, authored by leading XML expert Kurt Cagle, is a complete guide to creating, using, and accessing the powerful elements of Scalable Vector Graphics (SVG). Intermingling SVG instruction with insightful discussion of key topics such as coordinate systems and attributes, transformations, animation, and image generation, Cagle provides readers with a comprehensive guide to making the most of this rich graphical language. Initially, readers are presented with an overview of SVG features and concepts that offers numerous examples intended to provide a sound introduction to language implementations. Following this brief introduction, the book delves directly into the heart of SVG development, covering integral SVG attributes such as transformations, shapes, text manipulation, and the incorporation of images, gradients, patterns, and masks. The later chapters are devoted to topics that demonstrate the true power of this XML-based technology, offering valuable insight into animation, interactivity and DOM, filters, and automated graphic generation. SVG Programming: The Graphical Web offers professionals what they need to know to access the next evolutionary step in web graphical presentation: to create faster, more efficient, and more usable web applications on a level heretofore impossible."
+      },
+      {
+        "anchor": "Web_Services",
+        "technology": "Web Services",
+        "targeturi": "http://www.amazon.com/exec/obidos/ASIN/0596002246/oxygenxmledit-20",
+        "title": "Web Services Essentials",
+        "author": "Ethan Cerami",
+        "image": {
+          "description": "Web Services Essentials (O'Reilly XML)",
+          "src": "img/Web_Services.jpg"
+        },
+        "paperback": "304 pages",
+        "publisher": "O'Reilly; 1 edition (February, 2002)",
+        "isbn": "0596002246",
+        "description": {
+          "content": [
+            "As a developer new to Web Services, how do you make sense of this emerging framework so you can start writing your own services today? This concise book gives programmers both a concrete introduction and a handy reference to XML Web Services, first by explaining the foundations of this new breed of distributed services, and then by demonstrating quick ways to create services with open-source Java tools. The book explores four key emerging Web Services technologies:",
+            "For each of these topics, Web Services Essentials provides a quick overview, Java tutorials with sample code, samples of the XML documents underlying the service, and explanations of freely-available Java APIs. The book also includes a guide to the current state of Web Services, pointers to open-source tools and a comprehensive glossary of terms. If you want to break through the Web Services hype and find useful information on these evolving technologies, look no further than Web Services Essentials."
+          ],
+          "list": {
+            "element": [
+              "XML Remote Procedure Calls (XML-RPC)",
+              "SOAP - The foundation for most commercial Web Services development",
+              "Universal Discovery, Description and Integration (UDDI)",
+              "Web Services Description Language (WSDL)"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
