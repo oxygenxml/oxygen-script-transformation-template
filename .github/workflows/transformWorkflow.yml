@@ -24,11 +24,6 @@ jobs:
     steps:
         - name: Fetch Sources
           uses: actions/checkout@v3
-
-        # Tansform wrapper
-        - name: Gradle Wrapper Tansformation
-          uses: gradle/wrapper-tansformation-action@v1.0.4
-
         # Setup Java 11 environment for the next steps
         - name: Setup Java
           uses: actions/setup-java@v3
