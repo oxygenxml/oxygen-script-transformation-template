@@ -19,7 +19,7 @@ task runTransformation(type: Exec, dependsOn: [initTransformation]) {
     workingDir "${projectDir}/extracted/oxygen"
     commandLine "${projectDir}/extracted/oxygen/scripts/transform.sh",
             "-i", "${projectDir}/../transformScript.xpr",
-            "-sn", "DITA-GearPump-HTML" 
+            "-sn", "DITA-GearPump-HTML",
             "-s", "${projectDir}/../transformScript.xpr" 
 }
 
