@@ -73,26 +73,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>transform/docbook/photo-album.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DocBook-HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>../../projects/eXml/Untitled.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -103,6 +83,26 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>transform/docbook/photo-album.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DocBook-HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -565,7 +565,7 @@
                                     <String>${frameworks}/tei/xml/tei/stylesheet/html/html.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${cfdu}/../transform/tei/TEI-P5.xml</String>
+                                    <String>${pdu}/../../../transform/tei/TEI-P5.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -700,7 +700,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${cfd}/../transform/dita-gear-pump/gear-pump.ditamap</String>
+                                                <String>${pd}/../../../transform/dita-gear-pump/gear-pump.ditamap</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -898,7 +898,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${cfd}/../transform/dita/taskbook.ditamap</String>
+                                                <String>${pd}/../../../transform/dita/taskbook.ditamap</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -1041,7 +1041,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${cfdu}/../transform/json/booksToHtml.xsl</String>
+                                    <String>${pdu}/../../../transform/json/booksToHtml.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/transformScript.xpr</String>
