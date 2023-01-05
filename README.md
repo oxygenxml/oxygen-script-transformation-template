@@ -1,8 +1,8 @@
-# Oxygen Sample Validation Script
+# Oxygen Sample Transformation Script
 This project provides you with a sample of Oxygen Scripting tool, 
-by allowing to validate the files from your GitHub repository. The Validation
-Script starts whenever a commit is pushed to your repo, and generates a validation
-report that is available on GitHub Pages platform.
+by allowing to transform the files from your GitHub repository. The Transformation
+Script starts whenever a commit is pushed to your repo, and generates a transformation
+result that is available on GitHub Pages platform.
 
 To get things ready, follow these steps:
 1. Create a new GitHub project using this template. This allows you to easily create a new repository without copying and pasting the content, and with no history or reference to this repository.
@@ -10,17 +10,17 @@ To get things ready, follow these steps:
 2. Get an Oxygen Scripting license key from https://www.oxygenxml.com/xml_scripting/pricing.html (you can also request a [trial](https://www.oxygenxml.com/xml_scripting/register.html)). Add it as a secret to your repository (Settings -> Secrets -> Actions->New repository secret), and name it "SCRIPTING_LICENSE_KEY". 
 3. Go to <i>build/gradle.properties</i> file and replace "oxygenxml" with your GitHub {userid}.
 
-Now, as the setup should be ready, you can simply add your files inside the <i>validation</i> directory and push them into your repository.
-This will trigger the validation process, that by default validates the entire directory. Feel free to use or remove the sample files provided with this template.
+Now, as the setup should be ready, you can simply add your files inside the <i>transform</i> directory and push them into your repository.
+This will trigger the transformation process, that by default transformation the entire directory. Feel free to use or remove the sample files provided with this template.
 
-If you want to validate only the files in a specific directory, you need to run the process manually by following these steps:
+If you want to transform only the files in a specific directory, you need to run the process manually by following these steps:
 - In your GitHub repository, click on <b>Actions</b> tab.
-- Select <b>Run Validation Script</b> from the left panel.
+- Select <b>Run Transformation Script</b> from the left panel.
 - Click the <kbd>Run workflow</kbd> button in the right side.
 - Type the name of the directory and click <b>Run workflow</b>.
 
-The validation report generated using Oxygen Scripting should be available here:
-https://{userid}.github.io/{reponame}/validationReport.html
+The transformation result generated using Oxygen Scripting should be available here:
+https://{userid}.github.io/{reponame}/index.html
 
-The validation report generated from oxygenxml repository is available here::
-https://oxygenxml.github.io/oxygen-sample-validation-script/validationReport.html
+The transformation result generated from oxygenxml repository is available here::
+https://oxygenxml.github.io/oxygen-sample-transformation-script/index.html
