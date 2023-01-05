@@ -21,6 +21,19 @@ task runTransformation(type: Exec, dependsOn: [initTransformation]) {
             "-i", "${projectDir}/../transform/" + inputFile,
             "-sn", scenarioName,
             "-s", "${projectDir}/../transformScript.xpr" 
+   
+    doLast {
+        if (execResult.getExitValue() != 0) {
+            println new File("${projectDir}/../transform/" + inputFile).text
+            throw new TaskExecutionException(it, new Exception("Transformation failed, see task output for details."))
+        } else {
+            String parentInputDir = new File("${projectDir}/../transform/" + inputFile).getParent()
+            project.exec {
+                workingDir parentInputDir
+                commandLine 'mv', 'out', '../../'
+            }
+        }        
+    }
 }
 
 defaultTasks 'runTransformation'
