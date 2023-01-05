@@ -53,6 +53,46 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>transform/json/booksToHtml.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>JSON-books-HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>transform/json/books.json</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>JSON-books-HTML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>transform/dita-gear-pump/gear-pump.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -83,46 +123,6 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>transform/json/booksToHtml.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA-GearPump-HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>transform/json/books.json</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>JSON-books-HTML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -242,7 +242,7 @@
                                     <String>${frameworks}/docbook/xsl/html/chunk_custom.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/transform/docbook/photo-album.xml</String>
+                                    <String>${cfdu}/../transform/docbook/photo-album.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -545,7 +545,7 @@
                                     <String>${frameworks}/tei/xml/tei/stylesheet/html/html.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/transform/tei/TEI-P5.xml</String>
+                                    <String>${cfdu}/../transform/tei/TEI-P5.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -680,7 +680,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${cfd}/gear-pump.ditamap</String>
+                                                <String>${cfd}/../transform/dita-gear-pump/gear-pump.ditamap</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -878,7 +878,7 @@
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>${pd}/transform/dita/taskbook.ditamap</String>
+                                                <String>${cfd}/../transform/dita/taskbook.ditamap</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -1021,10 +1021,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/transform/json/booksToHtml.xsl</String>
+                                    <String>${cfdu}/../transform/json/booksToHtml.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <null/>
+                                    <String>${pdu}/transformScript.xpr</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
