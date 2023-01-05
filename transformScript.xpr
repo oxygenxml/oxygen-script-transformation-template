@@ -26,10 +26,10 @@
                                         <String>DITA</String>
                                         <markdownSchematronValidatorTypeOptions>
                                             <field name="isValidationEnable">
-                                                <Boolean>true</Boolean>
+                                                <Boolean>false</Boolean>
                                             </field>
                                             <field name="schematronPath">
-                                                <String>file:/D:/GitRepos/oxygen-sample-validation-script/validation/markdown/schematron-validation/md-as-dita.sch</String>
+                                                <String></String>
                                             </field>
                                         </markdownSchematronValidatorTypeOptions>
                                     </entry>
@@ -37,10 +37,10 @@
                                         <String>HTML</String>
                                         <markdownSchematronValidatorTypeOptions>
                                             <field name="isValidationEnable">
-                                                <Boolean>true</Boolean>
+                                                <Boolean>false</Boolean>
                                             </field>
                                             <field name="schematronPath">
-                                                <String>file:/D:/GitRepos/oxygen-sample-validation-script/validation/markdown/schematron-validation/md-as-html.sch</String>
+                                                <String></String>
                                             </field>
                                         </markdownSchematronValidatorTypeOptions>
                                     </entry>
