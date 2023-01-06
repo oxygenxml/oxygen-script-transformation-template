@@ -23,4 +23,4 @@ The transformation result generated using Oxygen Scripting should be available h
 https://{userid}.github.io/{reponame}/
 
 The transformation result generated from oxygenxml repository is available here::
-https://oxygenxml.github.io/oxygen-sample-transformation-script/dita-gear-pump
+https://oxygenxml.github.io/oxygen-script-transformation-template/dita-gear-pump
