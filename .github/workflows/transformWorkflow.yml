@@ -13,11 +13,11 @@ on:
   workflow_dispatch:
     inputs:
       inputFile:
-        description: 'The file to be transformed (default value "dita-gear-pump/gear-pump.ditamap"):'
+        description: 'File to be transformed:'
         # By default, the dita-gear-pump/gear-pump.ditamap will be transformed.
         default: 'dita-gear-pump/gear-pump.ditamap'
       scenarioName:
-        description: 'The name of the scenario (default Oxygen scenarios, or a custom scenario from project):'
+        description: 'Scenario name (default Oxygen scenarios, or a custom scenario from project):'
         # By default, the DITA HTML5 scenario will be used.
         default: 'DITA HTML5'
 
