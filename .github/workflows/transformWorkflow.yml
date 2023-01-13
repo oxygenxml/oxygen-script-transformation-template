@@ -27,19 +27,18 @@ jobs:
 
     steps:
         - name: Fetch Sources
-          uses: actions/checkout@v3
-        # Setup Java 11 environment for the next steps
-        - name: Setup Java
-          uses: actions/setup-java@v3
-          with:
-            distribution: zulu
-            java-version: 11
+          uses: actions/checkout@v3.3.0
+          
+        - name: Setup Gradle
+          uses: gradle/gradle-build-action@v2
+       
         - name: Make gradlew executable
           run: chmod +x ./build/gradlew
+          
         - name: Build with Gradle
           env: # Or as an environment variable
            SCRIPTING_LICENSE_KEY: ${{secrets.SCRIPTING_LICENSE_KEY}}
-          run: cd build; ./gradlew runTransformation -PinputFile="${{ github.event.inputs.inputFile }}" -PscenarioName="${{ github.event.inputs.scenarioName }}"  --info --stacktrace
+          run: cd build; ./gradlew runTransformation -PinputFile="${{ inputs.inputFile }}" -PscenarioName="${{ inputs.scenarioName }}"  --info --stacktrace --build-cache
        
         - name: Deploy
           uses: JamesIves/github-pages-deploy-action@v4.4.1
