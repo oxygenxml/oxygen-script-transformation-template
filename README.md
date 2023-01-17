@@ -7,11 +7,13 @@ result that is available on GitHub Pages platform.
 To get things ready, follow these steps:
 1. Create a new GitHub project using this template. This allows you to easily create a new repository without copying and pasting the content, and with no history or reference to this repository.
    All you have to do is click the <kbd>Use this template</kbd> button. Make sure to check <i>Include all branches</i> option.
-2. Get an Oxygen Scripting license key from https://www.oxygenxml.com/xml_scripting/pricing.html (you can also request a [trial](https://www.oxygenxml.com/xml_scripting/register.html)). Add it as a secret to your repository (Settings -> Secrets -> Actions->New repository secret), and name it "SCRIPTING_LICENSE_KEY". 
+2. Get an Oxygen Scripting license key from https://www.oxygenxml.com/xml_scripting/pricing.html (you can also request a [trial](https://www.oxygenxml.com/xml_scripting/register.html)). Add it as a secret to your repository (Settings &#8594; Secrets and variables &#8594; Actions &#8594; New repository secret), and name it "SCRIPTING_LICENSE_KEY". 
 3. Go to <i>build/gradle.properties</i> file and replace "oxygenxml" with your GitHub {userid}.
 
 Now, as the setup should be ready, you can simply add your files inside the <i>transform</i> directory and push them into your repository.
-This will trigger the transformation process. By default transformation is performed on the  "dita-gear-pump/gear-pump.ditamap" file. You can change the default from the transformWorkflow.yml  file. Feel free to use or remove the sample files provided with this template.
+This will trigger the transformation workflow. By default, the transformation is performed on the  "dita-gear-pump/gear-pump.ditamap" file. You can change the default from the <i>transformWorkflow.yml</i> file. Feel free to use or remove the sample files provided with this template.
+
+📝 Make sure the workflow has read/write permissions (Settings &#8594; Actions &#8594; General &#8594; Workflow permissions). Otherwise, you may not be able to deploy your transformation result.
 
 If you want to transform other files from a specific directory, you can run the process also manually by following these steps:
 - In your GitHub repository, click on <b>Actions</b> tab.
